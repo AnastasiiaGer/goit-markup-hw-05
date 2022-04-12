@@ -135,22 +135,22 @@
           <ul class="about-us-list list">
             <li class="about-us-img">
               <div class="about-container">
-              <img src="img/img.jpg" alt="code1" width="370" />
-              <p class="about-txt">Десктопные приложения</p>
+                <img src="img/img.jpg" alt="code1" width="370" />
+                <p class="about-txt">Десктопные приложения</p>
               </div>
             </li>
 
             <li class="about-us-img">
               <div class="about-container">
-              <img src="img/img(1).jpg" alt="code2" width="370" />
-              <p class="about-txt">Мобильные приложения</p>
+                <img src="img/img(1).jpg" alt="code2" width="370" />
+                <p class="about-txt">Мобильные приложения</p>
               </div>
             </li>
 
             <li class="about-us-img">
               <div class="about-container">
-              <img src="img/img(2).jpg" alt="code3" width="370" />
-              <p class="about-txt">Дизайнерские решения</p>
+                <img src="img/img(2).jpg" alt="code3" width="370" />
+                <p class="about-txt">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
@@ -553,16 +553,21 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-wrapper">
-        <button class="modal-btn" type="button" data-modal-close>X</button>
-        
-
+        <button class="modal-btn" type="button" data-modal-close>
+        <svg class="btm-modal-icon">
+            <use
+              class=""
+              href="./img/icons.svg/icons.svg.svg#icon-close-black"
+              width="18px"
+              height="18px"
+            ></use>
+          </svg>
+</button>
+        <p>Оставьте свои данные, мы вам перезвоним</p>
+        <form action="form"></form>
       </div>
     </div>
 
-
-<script src="./js/modal.js">
-  
-</script>
-
+    <script src="./js/modal.js"></script>
   </body>
 </html>
